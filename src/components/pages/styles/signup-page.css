@@ -1,0 +1,10 @@
+.sign-up{
+    background: linear-gradient(45deg, var(--dark-brown), rgb(51, 48, 49)) !important;
+    color:var(--highlight) !important;
+    border:2px solid var(--highlight) !important;
+}
+.sign-up:hover{
+    
+    color:var(--orange) !important;
+    border:2px solid var(--orange) !important;
+}

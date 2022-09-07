@@ -16,6 +16,58 @@
   height: 100vh;
   width: 100%;
 }
+.body-highlight{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--highlight);
+  height: 100vh;
+  width: 100%;
+}
 .text-highlight{
   color: var(--highlight)
+}
+.text-orange{
+  color: var(--orange)
+}
+.bg-highlight{
+  background-color: var(--highlight);
+}
+.bg-orange{
+  background-color: var(--orange);
+}
+.bg-dark-brown{
+  background-color: var(--dark-brown);
+}
+.small{
+  font-size: .5em;
+}
+.smaller{
+  font-size: .6rem;
+  /* line-height:; */
+}
+.dp{
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  border:2px solid white !important;
+}
+.head{
+  height: 60px;
+}
+.divider{
+  border-radius: 0 0 50% 35%;
+  background: linear-gradient(0deg,var(--dark-brown), var(--highlight));
+  border-bottom: 20px solid var(--orange);
+}
+.options{
+  border: 1px solid var(--dark-brown);
+}
+.options:hover{
+  background: linear-gradient(135deg,var(--highlight),var(--orange));
+  border:0;
+  border-right: 2px solid white !important;
+  border-bottom: 2px solid white !important;
+}
+.over{
+  position: absolute;
+  top:25%;
 }

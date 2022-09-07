@@ -1,9 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 
 import "./styles/welcome-page.css"
 
 const WelcomePage = () => {
+  let navigate = useNavigate()
+  const getStarted =()=>{
+    navigate("/signin")
+  }
   return (
     <>
     <div className='body-orange bg-gradient'>
@@ -14,7 +19,7 @@ const WelcomePage = () => {
             <small className='fw-bold '>or you might say Rex Quizs</small>
           </div>
 
-          <button className='px-4 shadow btn border-3 get-started'> Get Started</button>
+          <button onClick={getStarted} className='px-4 shadow btn border-3 get-started'> Get Started</button>
 
         </div>
         

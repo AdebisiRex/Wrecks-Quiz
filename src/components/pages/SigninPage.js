@@ -1,6 +1,13 @@
 import "./styles/signin-page.css";
-
+import { useNavigate } from "react-router-dom";
 const SigninPage = () => {
+    let navigate = useNavigate()
+    const visitSignup=()=>{
+        navigate("/signup")
+    }
+    const signin=()=>{
+        navigate("/control")
+    }
   return (
     <>
       <div className="p-4 body-orange">
@@ -19,7 +26,7 @@ const SigninPage = () => {
             name="password"
           />
 
-          <button className="mb-3 btn btn-lg signin rounded-4 form-control">
+          <button onClick={signin} className="mb-3 btn btn-lg signin rounded-4 form-control">
             {" "}
             Sign In
           </button>
@@ -28,7 +35,7 @@ const SigninPage = () => {
 
           <div className="text-center">
             <small>Don't have an account?</small>
-            <button className="btn btn form-control signup">Sign Up</button>
+            <button onClick={visitSignup}  className="btn btn form-control signup">Sign Up</button>
           </div>
         </div>
       </div>
