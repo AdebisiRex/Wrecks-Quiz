@@ -1,0 +1,27 @@
+:root{
+    --orange:rgb(249,72,72);
+    --dark-brown:rgb(64,34,44);
+    --highlight:rgb(253,228,188)
+}
+
+.input-style{
+    border: 5px solid var(--dark-brown) !important;
+}
+
+.signin{
+    background: linear-gradient(30deg, var(--dark-brown), rgb(70, 58, 62)) !important;
+    color:var(--highlight) !important;
+    border:2px solid var(--highlight) !important;
+}
+.signup{
+    background: linear-gradient(30deg, var(--highlight), rgb(253, 244, 230)) !important;
+    color:var(--dark-brown) !important;
+    border:2px solid var(--dark-brown) !important;
+    opacity: .4;
+}
+.signup:hover{
+    background: linear-gradient(30deg, var(--highlight), rgb(253, 244, 230)) !important;
+    color:var(--dark-brown) !important;
+    border:2px solid var(--dark-brown) !important;
+    opacity: 1;
+}

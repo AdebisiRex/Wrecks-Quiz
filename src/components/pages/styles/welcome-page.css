@@ -1,0 +1,31 @@
+
+
+
+.dog{
+    background: url("./resources/dog-in-space-iphone-6-plus-wallpaper.png"), var(--orange);
+    background-position: center;
+    background-size:contain;
+    position: relative;
+    background-repeat: no-repeat;
+
+}
+.welcome{
+    position: relative;
+    top: 12%;
+    
+}
+.get-started{
+    background:linear-gradient(45deg,var(--highlight), white,var(--highlight));
+    color: rgb(64,34,44);
+    position: absolute;
+    transition: .5s;
+    bottom: 12%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.get-started:hover{
+    scale:1.2;
+    border: 0;
+    letter-spacing: 2px;
+}
+
