@@ -1,0 +1,19 @@
+.create-questions{
+    position: absolute;
+    height: 30vh;
+    width: 80% ;
+    top:20%;
+    background: linear-gradient(120deg,var(--orange), rgba(255, 255, 255, 0.6));
+    border-radius: 0 0 30% 0;
+    /* border-top: 3px solid var(--dark-brown) !important ;
+    border-right: 5px solid var(--dark-brown) !important ;
+    border-bottom: 9px solid var(--dark-brown) !important ; */
+}
+.create-answers{
+    background: linear-gradient(150deg,var(--highlight), white);
+    border: 2px solid var(--orange) !important;
+    
+}
+.create-answers:hover{
+    background: linear-gradient(45deg,var(--dark-brown), white);
+}

@@ -25,3 +25,8 @@
     border:2px solid var(--dark-brown) !important;
     opacity: 1;
 }
+
+.scoreB{
+    background: linear-gradient(30deg, var(--highlight), rgb(253, 244, 230)) !important;
+    color:var(--dark-brown) !important;
+}
