@@ -58,11 +58,11 @@ const TakeQuiz = () => {
     setplayed((prev) => prev + 1);
 
     if (played <= 14) {
-      setdispQuestion(questiosArray[a]);
       if (selected === dispQuestion.answer) {
         setscore((prev) => prev + 1);
         setdispScore(scores[score + 1]);
       }
+      setdispQuestion(questiosArray[a]);
       setselected("");
     }else{
       localStorage.prize = dispScore;
